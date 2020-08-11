@@ -2,6 +2,7 @@ body {
     background-image: url(https://cdn.shopify.com/s/files/1/0879/0542/products/pc6171_03587b85-e79e-4bf1-8f27-2c20129ca0e8_720x.jpg?v=1514010995);
 }    
 
+/* Navigation bar  */
 .navbar-brand {
     display: block;
     background-color: #c0fae6;
@@ -13,7 +14,47 @@ body {
 .navbar-nav {
     margin-left: auto;
 }
+/* Navgation Bar */
 
+/* Footer */
+footer {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border-top: 5px solid #c0fae6;
+    background-color:#616363;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #454545;
+}
+
+.fa {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: xx-large;
+    color: white;
+}
+
+#copyright {
+    display: inline-block;
+    margin: auto;
+    
+}
+
+#socialmedia {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+}
+
+
+/* Footer */
+
+/* About Me Page */
 .container {
     margin: auto;
     margin-top: 10px;
@@ -38,26 +79,9 @@ h3 {
     min-height: 300px;
     padding: 0px 20px 20px 20px;
 }
+/* About Me Page */
 
-footer {
-    display: block;
-    width: 100%;
-    padding: 20px;
-    border-top: 5px solid #c0fae6;
-    background-color:#616363;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    color: #454545;
-}
-
-.container {
-    display: block;
-    background-color: white;
-}
-
+/* Portfolio Page */
 .portpic {
     max-width: 350px;
     padding: 10px 0px 10px 0px;
@@ -97,4 +121,26 @@ footer {
       background-color: #c0fae6;
       padding: 8px 15px 8px 15px;
   }
+/* Portfolio Page */
+
+/* Contact Page */
+  form {
+      padding: 20px;
+  }
+
+  button {
+      background-color: #c0fae6;
+      border: none;
+      width: 120px;
+      height: 70px;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px;
+  }
+
+  button:hover {
+      border: 2px solid #616363;
+  }
+/* Contact Page */
+
 

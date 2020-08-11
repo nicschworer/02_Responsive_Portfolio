@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Nic</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="style.css">
 
@@ -40,19 +42,44 @@
             </div>
         </div>
             <hr>
-            <div class="container">
-                <div class="row">
-                    email
-                </div>
-                <div class="row">
-                    phone
-                </div>
-                <div class="row">
-                    message
-                </div>
-            </div>
-    <footer> 
-        &copy; Copyright
+    <form id="contactme">
+      <div class="form-group">
+        <label for="nameInput">First & Last Name</label>
+        <input type="name" class="form-control" id="nameInput" placeholder="Name">
+        <small id="nameInputSmall" class="form-text text-muted"></small>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail">Your Email</label>
+        <input type="email" class="form-control" id="emailInput" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="inputMessage">Message</label>
+        <input type="message" class="form-control" id="messageInput" placeholder="Message">
+      </div>
+      <button type="submit" onclick="formSubmit()">Send</button>
+    </form>
+      
+
+    <script type=text/javascript>
+      
+      fucntion formSubmit () {
+        document.getElementById("contactme").submit();
+        console.log("contactme");
+      }
+
+    
+    
+    </script>
+            
+   <footer> 
+        <p id="copyright"> &copy; Copyright</p>
+
+        <p id="socialmedia">
+        <a href="https://www.instagram.com/nicschworer/" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/nic.schworer" class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com/in/nic-schworer-333a315a/" class="fa fa-linkedin"></a>
+        </p>
+
     </footer>
     
 </body>
