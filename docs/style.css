@@ -7,12 +7,13 @@ body {
     display: block;
     background-color: #c0fae6;
     padding: 10px 50px 10px 50px;
-    font-size: x-large;
+    font-size: 40px;
     font-weight: 800;
 }
 
 .navbar-nav {
     margin-left: auto;
+    font-size: 20px;
 }
 /* Navgation Bar */
 
@@ -55,7 +56,8 @@ footer {
 /* Footer */
 
 /* About Me Page */
-.container {
+.container-fluid {
+    max-width: 80%;
     margin: auto;
     margin-top: 10px;
     display: block;
@@ -66,26 +68,27 @@ h3 {
     color: #616363;
     padding: 20px 10px 10px 10px;
     margin-bottom: -15px;
+    font-size: 36px;
 }
 
 #headshot {
-    width: 250px;
+    width: 40%;
     height: auto;
     float: left;
-    margin: 0px 20px 20px 0px;
+    margin: 0px 40px 0px 0px;
 }
 
 #aboutme {
     min-height: 300px;
     padding: 0px 20px 20px 20px;
+    font-size: 24px;
 }
 /* About Me Page */
 
 /* Portfolio Page */
 .portpic {
-    max-width: 350px;
-    padding: 10px 0px 10px 0px;
-    margin: auto;
+    width: 90%;
+    margin: 15px;
     transition: .5s ease;
     backface-visibility: hidden;
 }
