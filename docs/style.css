@@ -79,6 +79,7 @@ h3 {
 
 #headshot {
     width: 60%;
+    max-width: 800px;
     height: auto;
     float: left;
     margin: 0px 40px 0px 0px;
@@ -86,7 +87,7 @@ h3 {
 
 #aboutme {
     min-height: 300px;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 20px 0px 20px;
 }
 
 p {
@@ -103,7 +104,7 @@ p {
     backface-visibility: hidden;
 }
 
-.col-sm-4 {
+.col-md-4 {
     position: relative;
 }
 
@@ -118,11 +119,11 @@ p {
     text-align: center;
   }
 
-  .col-sm-4:hover .portpic {
+  .col-md-4:hover .portpic {
     opacity: 0.3;
   }
 
-  .col-sm-4:hover .middle {
+  .col-md-4:hover .middle {
     opacity: 1;
   }
 
@@ -165,35 +166,38 @@ p {
         font-size: 40px;
         font-weight: 800;
     }
+    
     .navbar-nav{
         font-size: 24px;
     }
 }    
 
-@media all and (max-width: 860px) {  
+@media all and (max-width: 880px) {  
     .navbar-brand {
         padding: 5px, 10px, 5px, 10px;
         font-size: 34px;
         font-weight: 500;
     }
+    
     .navbar-nav{
         font-size: 20px;
     }
+    
     h3 {
         font-size: 30px;
     }
+    
     p {
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
-    }    
-    .col-sm-4 {
-        flex-direction: column;
-    }  
+    }     
+    
     button {
         margin: 0px;
         padding: 4px, 5px;
         width: 75px;
     }
+    
     #copyright {
         margin: 0px;
         float: left;
@@ -214,10 +218,8 @@ p {
     p {
         font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
-    }    
-    .col-sm-4 {
-        flex-direction: column;
-    }  
+    }   
+
     button {
         margin: 0px;
         padding: 0px;
@@ -240,7 +242,12 @@ p {
         font-size: 20px;
         margin: 0px;
         width: 100px;
-        height: auto;
+        height: 60px;
+    }
+
+    .portpic {
+        margin: 0px;
+        margin-bottom: 15px;
     }
 }
 
