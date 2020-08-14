@@ -44,34 +44,23 @@
             </div>
         </div>
             <hr>
-    <form id="contactme">
-      <div class="form-group">
-        <label for="nameInput">First & Last Name</label>
-        <input type="name" class="form-control" id="nameInput" placeholder="Name">
-        <small id="nameInputSmall" class="form-text text-muted"></small>
-      </div>
-      <div class="form-group">
-        <label for="inputEmail">Your Email</label>
-        <input type="email" class="form-control" id="emailInput" placeholder="Email">
-      </div>
-      <div class="form-group">
-        <label for="inputMessage">Message</label>
-        <input type="message" class="form-control" id="messageInput" placeholder="Message">
-      </div>
-      <button class="sendbutton" type="submit" onclick="formSubmit()">Send</button>
-    </form>
-      
-
-    <script type=text/javascript>
-      
-      fucntion formSubmit () {
-        document.getElementById("contactme").submit();
-        console.log("contactme");
-      }
-
-    
-    
-    </script>
+      <form id="contactme">
+        <div class="form-group">
+          <label for="nameInput">First & Last Name</label>
+          <input type="text" class="form-control" id="nameInput" placeholder="Name">
+          <small id="nameInputSmall" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+          <label for="emailInput">Your Email</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="messageInput">Message</label>
+          <input type="text" class="form-control" id="messageInput" placeholder="Message">
+        </div>
+        <button class="sendbutton" type="submit" onclick="formSubmit()">Send</button>
+      </form>
+    </div>  
             
    <footer> 
         <p id="copyright"> &copy; Copyright</p>
