@@ -78,7 +78,7 @@ h3 {
 
 
 #headshot {
-    width: 40%;
+    width: 60%;
     height: auto;
     float: left;
     margin: 0px 40px 0px 0px;
@@ -103,9 +103,8 @@ p {
     backface-visibility: hidden;
 }
 
-.col-md-4 {
+.col-sm-4 {
     position: relative;
-    min-height: 375px;
 }
 
 .middle {
@@ -141,7 +140,7 @@ p {
       padding: 20px;
   }
 
-  button {
+  .sendbutton {
       background-color: #c0fae6;
       border: none;
       width: 120px;
@@ -154,15 +153,11 @@ p {
   button:hover {
       border: 2px solid #616363;
   }
-/* Contact Page */
 
-/* @media (max-width: 775px) {
-    .navbar-brand {
-        padding: 10px;
-        font-size: 30px;
-        font-weight: 600;
-    }
-} */
+  label {
+      font-size: 24px;
+  }
+/* Contact Page */
 
 @media all and (max-width: 1020px) {
     .navbar-brand {
@@ -170,7 +165,6 @@ p {
         font-size: 40px;
         font-weight: 800;
     }
-
     .navbar-nav{
         font-size: 24px;
     }
@@ -178,24 +172,75 @@ p {
 
 @media all and (max-width: 860px) {  
     .navbar-brand {
-        padding: 5px;
+        padding: 5px, 10px, 5px, 10px;
         font-size: 34px;
         font-weight: 500;
     }
-
     .navbar-nav{
         font-size: 20px;
     }
-
     h3 {
         font-size: 30px;
     }
-
     p {
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
-    }      
+    }    
+    .col-sm-4 {
+        flex-direction: column;
+    }  
+    button {
+        margin: 0px;
+        padding: 4px, 5px;
+        width: 75px;
+    }
+    #copyright {
+        margin: 0px;
+        float: left;
+    }
 }
 
+@media all and (max-width: 380px) {
+    .navbar-brand {
+        padding: 2px, 5px, 2px, 5px;
+        font-size: 24px;
+        font-weight: 400;
+    }
 
+    h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }    
+    .col-sm-4 {
+        flex-direction: column;
+    }  
+    button {
+        margin: 0px;
+        padding: 0px;
+        width: 65px;
+        height: 65px;
+    }
+    #copyright {
+        margin: 0px;
+        float: left;
+    }
+    #headshot {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .container-fluid {
+        padding-right: 15px;
+    }
+
+    .sendbutton {
+        font-size: 20px;
+        margin: 0px;
+        width: 100px;
+        height: auto;
+    }
+}
 
