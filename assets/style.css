@@ -1,6 +1,7 @@
 body {
-    background-image: url(https://cdn.shopify.com/s/files/1/0879/0542/products/pc6171_03587b85-e79e-4bf1-8f27-2c20129ca0e8_720x.jpg?v=1514010995);
-}   
+    background-color: #fafffe;
+    
+}
 
 /* Navigation bar  */
 .navbar-brand {
@@ -54,6 +55,10 @@ footer {
     font-size: 24px;
 }
 
+a:hover{
+    color: #c0fae6;
+}
+
 
 /* Footer */
 
@@ -67,6 +72,7 @@ footer {
     display: block;
     background-color: white;
     margin-bottom: 25px;
+    
 }
 
 h3 {
@@ -82,7 +88,8 @@ h3 {
     max-width: 700px;
     height: auto;
     float: left;
-    margin: 0px 40px 0px 0px;
+    margin: 0px 40px 0px 20px;
+    border-radius: 10%;
 }
 
 #aboutme {
