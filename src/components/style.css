@@ -16,6 +16,10 @@ body {
     margin-left: auto;
     font-size: 30px;
 }
+
+.nav-link {
+    border: none;
+}
 /* Navgation Bar */
 
 /* Footer */
@@ -55,7 +59,7 @@ footer {
     font-size: 24px;
 }
 
-a:hover{
+button:hover{
     color: #c0fae6;
 }
 
@@ -95,11 +99,11 @@ h3 {
 #aboutme {
     min-height: 300px;
     padding: 0px 20px 0px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
 }
 
 p {
-    font-size: 30px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
