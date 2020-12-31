@@ -3,27 +3,26 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Header from "./components/Header";
-import BioCard from "./components/bioCard";
-import ResumeCard from "./components/ResumeCard";
+import About from "./pages/About";
+import Resume from "./pages/Resume";
 import Footer from "./components/Footer";
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+// import NoMatch from './pages/NoMatch;';
 
 function App() {
   return (
     < Router>
       <div>
         < Header/>
-        < Switch>
-        < Route exact path="/" component={BioCard} />
-        < Route exact path="/about" component={BioCard} />
-        < Route exact path="/resume" component={ResumeCard} />
-        < Route exact path="/portfolio" component={Portfolio} />
-        < Route exact path="/contact" component={Contact} />
-
-
-
-        </Switch>
+          < Switch>
+            < Route exact path="/" component={About} />
+            < Route exact path="/about" component={About} />
+            < Route exact path="/resume" component={Resume} />
+            < Route exact path="/portfolio" component={Portfolio} />
+            < Route exact path="/contact" component={Contact} />
+            {/* < Route component={NoMatch} /> */}
+          </Switch>
         < Footer/>
       </div>
     </Router>

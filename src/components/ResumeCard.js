@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from "../assets/resume.png"
 
 
 
@@ -13,7 +14,7 @@ function ResumeCard () {
         <div className="row">
         <div id="aboutme" className="col-sm-12">
             <div className="resume">
-            <embed src="assets/resume.pdf" width="100%" height="1200px" padding-top="20px"/>
+            <embed src={Resume} width="100%" height="auto" padding-top="5px"/>
             </div>
         </div>
         </div>  
