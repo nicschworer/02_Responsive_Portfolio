@@ -47,5 +47,6 @@
   },
   "devDependencies": {
     "@babel/preset-react": "^7.12.10"
-  }
+  },
+  "homepage": "https://nicschworer.github.io/02_Responsive_Website"
 }
